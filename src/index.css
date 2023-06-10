@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn {
+    @apply px-6 py-2.5 text-sm focus:outline-none focus:ring rounded font-medium transition duration-300;
+}
+.btn-primary {
+    @apply focus:ring-blue-200 bg-blue-600 text-white  hover:bg-blue-700;
+}
+.btn-pink {
+    @apply focus:ring-pink-200  bg-pink-500 text-white  hover:bg-pink-600;
+} */
