@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+  @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Open+Sans:wght@400;500;600&display=swap');
+
+/* body, html {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Slabo 27px', serif;
+} */
 /* .btn {
     @apply px-6 py-2.5 text-sm focus:outline-none focus:ring rounded font-medium transition duration-300;
 }
 .btn-primary {
-    @apply focus:ring-blue-200 bg-blue-600 text-white  hover:bg-blue-700;
+    @apply text-white bg-blue-600 focus:ring-blue-200 hover:bg-blue-700;
 }
 .btn-pink {
-    @apply focus:ring-pink-200  bg-pink-500 text-white  hover:bg-pink-600;
+    @apply text-white bg-pink-500 focus:ring-pink-200 hover:bg-pink-600;
 } */

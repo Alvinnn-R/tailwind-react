@@ -6,7 +6,7 @@ import Checkbox from "../components/Checkbox";
 
 export default function Login() {
   return (
-    <Guest tittle={'Login'}>
+    <Guest tittle={'Login'} cardClassName={"lg:w-2/5"}>
       <div>
         {/* <h1 className="mb-6 text-2xl font-light uppercase">Login</h1> */}
         <form action="">

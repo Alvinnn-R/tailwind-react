@@ -7,7 +7,7 @@ import Select from "../components/Select";
 
 export default function Register() {
   return (
-    <Guest tittle={"Register"} cardClassName={"w-2/5"}>
+    <Guest tittle={"Register"} cardClassName={"lg:w-2/5"}>
       <div>
         {/* <h1 className="mb-6 text-2xl font-light uppercase">Register</h1> */}
         <form action="">
@@ -24,7 +24,7 @@ export default function Register() {
               placeholder={"email@gmail.com"}
             />
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid gap-x-4 md:grid-cols-2">
             <div className="mb-6">
               <Label forInput="password">Password</Label>
               <Input type="password" name="password" id="password" />
@@ -57,9 +57,10 @@ export default function Register() {
           <div className="flex items-center justify-between">
             <Button>Register</Button>
             <span>
-                Already have account ?{"  "}
-            <a href="/login" className="font-medium text-indigo-500">Login.</a>
-
+              Already have account ?{"  "}
+              <a href="/login" className="font-medium text-indigo-500">
+                Login.
+              </a>
             </span>
           </div>
         </form>

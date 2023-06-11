@@ -10,13 +10,13 @@
 // )
 
 //6 Form Plugin
-import './index.css'
+import "./index.css";
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import Login from './pages/Login';
-import Register from './pages/Register';
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
