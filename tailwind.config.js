@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: '2rem'
+      },
       colors: {
         facebook: "#1877F2",
         twitter: "#1DA1F2",
