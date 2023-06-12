@@ -69,7 +69,7 @@ export default function App() {
     // </div>
     // </Layout>
 
-    //6 Responsife Design
+    //6 Responsive Design
     // <div className="grid grid-cols-3 gap-10">
     //   <div className="flex items-center justify-center w-full text-white bg-rose-500 aspect-video sm:bg-blue-600 md:bg-yellow-500 lg:bg-pink-600 xl:bg-black 2xl:bg-indigo-600">Tailwinds CSS</div>
     //   <div className="flex items-center justify-center w-full text-white bg-rose-500 aspect-video">Tailwinds CSS</div>
@@ -139,21 +139,6 @@ export default function App() {
 
     <>
       <Hero />
-      <article className="text-lg">
-        {" "}
-        <p className="mb-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod
-          dolorum veritatis, cumque fugiat cum tempora voluptatibus nam dolore
-          doloremque architecto cupiditate fuga voluptas eius laudantium in
-          voluptatem eos ab!{" "}
-        </p>{" "}
-        <p>
-          Perspiciatis vitae, quod ex voluptatibus officiis perferendis delectus
-          iste porro provident sunt alias quia deserunt natus est officia eius
-          iusto veritatis cupiditate repudiandae fugit debitis illum harum at?
-          Dignissimos, blanditiis?{" "}
-        </p>{" "}
-      </article>
     </>
   );
 }
