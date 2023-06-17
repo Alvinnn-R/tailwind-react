@@ -1,4 +1,5 @@
 // import "./App.css";
+import { Helmet } from "react-helmet";
 import Button from "./components/Button";
 import Hero from "./components/Hero";
 import Layout from "./components/Layout";
@@ -138,7 +139,47 @@ export default function App() {
     // </div>
 
     <>
-      <Hero />
+      <Hero>
+        <Helmet>
+          <title>Home | ARS vision media</title>
+        </Helmet>
+        <Hero.Body>
+          <header className="py-4 lg:py-8 md:py-16 text-white">
+            <Hero.Title>New Revolution</Hero.Title>
+            <p className="mt-4 mb-6 text-base font-light leading-relaxed md:text-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+              <a
+                href="#"
+                className="font-medium underline decoration-sky-500 text-sky-400"
+              >
+                Dolorem quam
+              </a>
+              , recusandae quis dolorum veritatis nulla, nemo consequuntur
+              temporibus quisquam expedita libero est facere ipsum laboriosam
+              eveniet itaque. Rem, dicta temporibus?
+            </p>
+            <a
+              href="#"
+              className="bg-white hover:bg-gray-50 hover:text-blue-600 transition duration-200 text-gray-900 md:px-6 px-4 py-2 text-sm md:text-tiny md:py-2.5 rounded-xl font-medium inline-flex shadow-inner shadow-gray-300 md:shadow-gray-400"
+            >
+              Browse
+            </a>
+          </header>
+        </Hero.Body>
+      </Hero>
+      <div className="container">
+        <div className="max-w-xl w-full">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod
+          dolorum veritatis, cumque fugiat cum tempora voluptatibus nam dolore
+          doloremque architecto cupiditate fuga voluptas eius laudantium in
+          voluptatem eos ab! Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Pariatur reprehenderit voluptates repellendus et cumque debitis
+          amet quisquam nobis magni. Pariatur qui neque eaque quidem praesentium
+          ut possimus cupiditate officiis! Sit. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Iste dolorem iusto beatae accusantium
+          repellat. Ducimus aliquam velit rem libero iure dolore pariatur
+        </div>
+      </div>
     </>
   );
 }

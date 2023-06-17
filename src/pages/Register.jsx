@@ -4,10 +4,14 @@ import Input from "../components/Input";
 import Label from "../components/Label";
 import Checkbox from "../components/Checkbox";
 import Select from "../components/Select";
+import { Helmet } from "react-helmet";
 
 export default function Register() {
   return (
     <Guest tittle={"Register"} cardClassName={"lg:w-2/5"}>
+      <Helmet>
+        <title>Register</title>
+      </Helmet>
       <div>
         {/* <h1 className="mb-6 text-2xl font-light uppercase">Register</h1> */}
         <form action="">

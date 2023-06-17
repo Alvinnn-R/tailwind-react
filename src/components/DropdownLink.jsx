@@ -1,6 +1,6 @@
 import { Menu } from "@headlessui/react";
 
-export default function ResponsiveNavLink({ href, children }) {
+export default function DropdownLink({ href, children }) {
   return (
     <Menu.Item>
       <a
