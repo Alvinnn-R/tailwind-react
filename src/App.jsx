@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet";
 import Button from "./components/Button";
 import Hero from "./components/Hero";
 import Layout from "./components/Layout";
+import ApplicationLogo from "./components/ApplicationLogo";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -145,7 +147,7 @@ export default function App() {
         </Helmet>
         <Hero.Body>
           <header className="py-4 lg:py-8 md:py-16 text-white">
-            <Hero.Title>New Revolution</Hero.Title>
+            <Hero.Title className={'text-transparent bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text'}>New Revolution</Hero.Title>
             <p className="mt-4 mb-6 text-base font-light leading-relaxed md:text-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
               <a
@@ -180,6 +182,8 @@ export default function App() {
           repellat. Ducimus aliquam velit rem libero iure dolore pariatur
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }

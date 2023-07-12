@@ -17,7 +17,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Articles from "./pages/Articles";
+import Index from "./pages/articles/index";
+import Single from "./pages/articles/single";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
@@ -27,7 +28,8 @@ root.render(
         <Route path="/" element={<App />} exact />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/articles" element={<Articles title={"Our Article"} />} />
+        <Route path="/articles" element={<Index />} />
+        <Route path="/articles/single" element={<Single />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -6,8 +6,8 @@ import MobileNav from "./MobileNav";
 // import { Fragment } from "react";
 import Navbar from "./Navbar";
 
-const Title = ({ children }) => (
-  <h1 className="text-xl font-bold md:text-3xl text-white">{children}</h1>
+const Title = ({ className,children }) => (
+  <h1 className={`${className ? className : ''} text-xl font-bold md:text-3xl text-white inline-block`}>{children}</h1>
 );
 
 const Body = ({ children }) => <div>{children}</div>;
@@ -21,7 +21,7 @@ const Hero = ({ className, children }) => {
   // };
   return (
     <div
-      className={`${className} bg-gradient-to-br from-sky-950 via-slate-800 to-blue-950 mb-8`}
+      className={`${className} bg-gradient-to-br from-sky-950 via-slate-800 to-blue-950 mb-4 sm:mb-12`}
     >
       <MobileNav />
 
@@ -48,12 +48,16 @@ const Hero = ({ className, children }) => {
               Browse
             </a>
           </header> */}
+          <div className="py-4 lg:py-9 md:py-16 text-white"> 
           {children}
+          </div>
+
         </div>
       </div>
     </div>
   );
 };
+
 Hero.Title = Title;
 Hero.Body = Body;
 

@@ -6,7 +6,7 @@ import { Fragment } from "react";
 
 export default function Navbar() {
   const auth = {
-    check: false,
+    check: true,
     user: {
       name: "Alvin Rama S.",
     },
